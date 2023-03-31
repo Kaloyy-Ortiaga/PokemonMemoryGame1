@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="MemoryGameStyle.css"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="stats-container">
+        <p1><b>Max Moves: 12 </b></p1>
+        <div id="moves-count"></div>
+        <div id="time"></div>
+      </div>
+      <div class="game-container"></div>
+      <button id="stop" class="hide">Stop Playing</button>
+    </div>
+    <div class="controls-container">
+      <p id="result"></p>
+      <button id="start">Start Playing</button>
+    </div>
+    <div class="difficulty">
+      <p id="CD"> Current difficulty is : Easy</p>
+      <button id="difficulty"><a href="MemoryGameNormal.html"> Increase to Normal Difficulty </a></button>
+      <button id="difficulty2"><a href="MemoryGameHard.html"> Increase to Hard Difficulty </a></button>
+    </div>
+
+    <!-- Script -->
+    <script src="MemoryGameScript.js"></script>
+  </body>
+</html>
